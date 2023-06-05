@@ -65,3 +65,9 @@ Route::get('/dashboard/notifications', function () {
         'title' => 'Daftar Signage'
     ]);   
 })->middleware('auth');
+
+Route::get('/', function () {
+    return view('index',[
+        'title' => 'Welcome '
+    ]);   
+});

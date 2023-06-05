@@ -105,7 +105,7 @@
 
 /* index start */
 .index-container {
-    @apply flex relative h-screen w-max;
+    @apply flex relative;
 }
 .index-title {
     @apply flex absolute p-1 w-full;

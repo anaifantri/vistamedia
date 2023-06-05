@@ -15,12 +15,12 @@
             <!-- Logo & Tittle End-->
             <!-- Hamburger Menu Start-->
             <div class="flex justify-start items-center px-4 w-full">
-                {{-- <button id="hamburger" name="hamburger" type="button">
+                <button class="md:hidden lg:hidden xl:hidden" id="hamburger" name="hamburger" type="button">
                     <span class="origin-top-left hamburger-line transition duration-300 ease-in-out"></span>
                     <span class="hamburger-line transition duration-300 ease-in-out"></span>
                     <span class="origin-bottom-left hamburger-line transition duration-300 ease-in-out"></span>
-                </button> --}}
-                <nav class="flex w-full">
+                </button>
+                <nav class="md:flex lg:flex xl:flex w-full hidden">
                     <ul class="flex justify-start group w-24 h-6">
                         <a class="right-nav text-white {{ Request::is('dashboard') ? 'active' : '' }}"
                             href="/dashboard">
@@ -238,4 +238,6 @@
                 </nav>
             </div>
         </div>
+
+        <script src="/js/dashboard.js"></script>
 </header>
