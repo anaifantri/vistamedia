@@ -33,7 +33,7 @@
             <!-- Form login start-->
             @if (session()->has('loginError'))
                 <div class="flex items-center justify-center m-auto">
-                    <div class="flex alert-danger">
+                    <div class="flex p-2 w-max h-8 bg-red-600 rounded-lg text-white hover:bg-red-700 drop-shadow-md">
                         <div class="flex m-auto text-red-800">
                             <svg class="w-6 fill-current mx-1" clip-rule="evenodd" fill-rule="evenodd"
                                 beaa14f1a55f2b250cf9a72c3d80716468efbc1bbeaa14f1a55f2b250cf9a72c3d80716468efbc1b

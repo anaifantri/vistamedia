@@ -14,7 +14,8 @@
     <div class="container-xl mx-auto position-relative flex h-screen bg-fixed bg-center bg-auto"
         style="background-image: url('https://source.unsplash.com/1366x768?nature')">
         <div class="flex w-full justify-end absolute p-5">
-            <a href="/login" class="index-link btn-warning">
+            <a href="/login"
+                class="flex items-center justify-center p-2 w-max h-8 bg-yellow-500 rounded-lg text-white hover:bg-yellow-600 drop-shadow-md">
                 <svg class="fill-current w-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24">
                     <path d="M8 10v-5l8 7-8 7v-5h-8v-4h8zm2-8v2h12v16h-12v2h14v-20h-14z" />
